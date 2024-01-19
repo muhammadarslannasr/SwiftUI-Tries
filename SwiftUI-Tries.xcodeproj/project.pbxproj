@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5439A5142B5A4632008AC7A0 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5439A5132B5A4632008AC7A0 /* TextView.swift */; };
+		5439A5162B5A4A13008AC7A0 /* AddCitiesInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5439A5152B5A4A13008AC7A0 /* AddCitiesInformation.swift */; };
 		54EC41602B56A34100F45E50 /* SwiftUI_TriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC415F2B56A34100F45E50 /* SwiftUI_TriesApp.swift */; };
 		54EC41622B56A34100F45E50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC41612B56A34100F45E50 /* ContentView.swift */; };
 		54EC41642B56A34200F45E50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54EC41632B56A34200F45E50 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 		54EC41722B56A34200F45E50 /* SwiftUI_TriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC41712B56A34200F45E50 /* SwiftUI_TriesTests.swift */; };
 		54EC417C2B56A34200F45E50 /* SwiftUI_TriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC417B2B56A34200F45E50 /* SwiftUI_TriesUITests.swift */; };
 		54EC417E2B56A34200F45E50 /* SwiftUI_TriesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC417D2B56A34200F45E50 /* SwiftUI_TriesUITestsLaunchTests.swift */; };
+		54FEF70E2B57BE9B0098BCA5 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FEF70D2B57BE9B0098BCA5 /* Weather.swift */; };
+		54FEF7102B57D40E0098BCA5 /* CitiesDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FEF70F2B57D40E0098BCA5 /* CitiesDetailScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5439A5132B5A4632008AC7A0 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		5439A5152B5A4A13008AC7A0 /* AddCitiesInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCitiesInformation.swift; sourceTree = "<group>"; };
 		54EC415C2B56A34100F45E50 /* SwiftUI-Tries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Tries.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54EC415F2B56A34100F45E50 /* SwiftUI_TriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TriesApp.swift; sourceTree = "<group>"; };
 		54EC41612B56A34100F45E50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +51,8 @@
 		54EC41772B56A34200F45E50 /* SwiftUI-TriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-TriesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54EC417B2B56A34200F45E50 /* SwiftUI_TriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TriesUITests.swift; sourceTree = "<group>"; };
 		54EC417D2B56A34200F45E50 /* SwiftUI_TriesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TriesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		54FEF70D2B57BE9B0098BCA5 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		54FEF70F2B57D40E0098BCA5 /* CitiesDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesDetailScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,7 @@
 		54EC41532B56A34100F45E50 = {
 			isa = PBXGroup;
 			children = (
+				5439A5132B5A4632008AC7A0 /* TextView.swift */,
 				54EC415E2B56A34100F45E50 /* SwiftUI-Tries */,
 				54EC41702B56A34200F45E50 /* SwiftUI-TriesTests */,
 				54EC417A2B56A34200F45E50 /* SwiftUI-TriesUITests */,
@@ -100,6 +109,9 @@
 				54EC41632B56A34200F45E50 /* Assets.xcassets */,
 				54EC41652B56A34200F45E50 /* SwiftUI_Tries.entitlements */,
 				54EC41662B56A34200F45E50 /* Preview Content */,
+				54FEF70D2B57BE9B0098BCA5 /* Weather.swift */,
+				54FEF70F2B57D40E0098BCA5 /* CitiesDetailScreen.swift */,
+				5439A5152B5A4A13008AC7A0 /* AddCitiesInformation.swift */,
 			);
 			path = "SwiftUI-Tries";
 			sourceTree = "<group>";
@@ -260,7 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				54EC41622B56A34100F45E50 /* ContentView.swift in Sources */,
+				5439A5162B5A4A13008AC7A0 /* AddCitiesInformation.swift in Sources */,
+				54FEF70E2B57BE9B0098BCA5 /* Weather.swift in Sources */,
 				54EC41602B56A34100F45E50 /* SwiftUI_TriesApp.swift in Sources */,
+				54FEF7102B57D40E0098BCA5 /* CitiesDetailScreen.swift in Sources */,
+				5439A5142B5A4632008AC7A0 /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
